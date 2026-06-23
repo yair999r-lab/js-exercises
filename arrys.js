@@ -142,6 +142,18 @@
 
 // מצא האם יש כפילויות במערך — **ללא שימוש ב-Set**.
 
+
+// const arr = [1,2,3,4]
+// const newArr = []
+
+// function doplict(){
+// for(const num of arr){
+//     if(num in newArr){
+//         return false
+//     }{newArr.push(num)}
+// }return newArr}
+
+// console.log(doplict())
 // ---
 
 // ### תרגיל 40 – האלמנט הנפוץ ביותר
