@@ -96,18 +96,6 @@
 // - הכפל ב-2
 // - חשב סכום
 
-// ---
-
-// ### תרגיל 37
-
-// יש מערך משתמשים — בצע chain אחד:
-
-// - סנן מעל גיל 18
-// - החזר רק שמות
-// - הפוך למחרוזת אחת עם פסיקים
-
-// ---
-
 // ## תרגילי חשיבה
 
 // ---
@@ -118,10 +106,19 @@
 
 // קלט:
 
-// </div>
+// const arr = [{ type: "fruit" }, { type: "veg" }, { type: "fruit" }];
 
-// ```javascript
-// [{ type: "fruit" }, { type: "veg" }, { type: "fruit" }]
+// const group = arr.reduce((acc, item) => {
+//   const key = item.type;
+//   if (!acc[key]) {
+//     acc[key] = [];
+//   }
+//   acc[key].push(item);
+//   return acc;
+// }, {});
+
+// console.log(group);
+
 // ```
 
 // <div dir="rtl">
