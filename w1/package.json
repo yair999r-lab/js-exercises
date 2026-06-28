@@ -1,0 +1,28 @@
+{
+  "name": "w1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array_methods.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yair999r-lab/js-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/yair999r-lab/js-exercises/issues"
+  },
+  "homepage": "https://github.com/yair999r-lab/js-exercises#readme",
+  "dependencies": {
+    "analiza-sync": "^1.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
